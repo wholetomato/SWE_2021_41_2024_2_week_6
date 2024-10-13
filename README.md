@@ -60,6 +60,8 @@ LOGO=ubuntu-logo
 >> * Showing git version in the container
 >> * output
 git version 2.43.0
+<br>
+
 >
 >> docker exec ubuntu-container python3 --version
 >> * Showing python version in the container
