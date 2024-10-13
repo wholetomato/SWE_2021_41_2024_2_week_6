@@ -53,6 +53,8 @@ BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 UBUNTU_CODENAME=noble
 LOGO=ubuntu-logo
+<br>
+
 >
 >> docker exec ubuntu-container git --version
 >> * Showing git version in the container
@@ -63,8 +65,11 @@ git version 2.43.0
 >> * Showing python version in the container
 >> * output
 Python 3.12.3
+<br>
+
 >
 >> docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
 >> * showing mounted directory with the container
 >> * output
 [ubuntu_host_dir:/mnt/ubuntu_container_dir]
+<br>
