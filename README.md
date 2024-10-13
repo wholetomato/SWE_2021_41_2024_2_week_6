@@ -2,8 +2,7 @@
 ---
 ## Week 4 Assignment
 * https://github.com/wholetomato/SWE_2021_41_2024_02_week_4
-<pre>
-  <code>
+'''python
     def isHappy_result(n):
     result = 0
     while n > 0:
@@ -28,8 +27,7 @@
     
     num = 19
     print(isHappy(num))
-  </code>
-</pre>
+'''
 
 
 
@@ -37,7 +35,7 @@
 ## Week 5 Assignment
 
 >
->> <pre><code> docker exec ubuntu-container cat etc/os-release </code></pre>
+>> '''python docker exec ubuntu-container cat etc/os-release '''
 >> * docker exec <my container> means commanding container to do something. In the upper command, I ordered "ubuntu-container" to print content in etc/os-release
 >> * output
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
