@@ -35,7 +35,7 @@
 ## Week 5 Assignment
 
 >
->> ```python
+>> ```console
 >>  docker exec ubuntu-container cat etc/os-release
 >> ```
 >> * docker exec <my container> means commanding container to do something. In the upper command, I ordered "ubuntu-container" to print content in etc/os-release
@@ -56,7 +56,7 @@ LOGO=ubuntu-logo
 <br>
 
 >
->> ```python
+>> ```console
 >> docker exec ubuntu-container git --version
 >> ```
 >> * Showing git version in the container
@@ -65,7 +65,7 @@ git version 2.43.0
 <br>
 
 >
->> ```python
+>> ```console
 >> docker exec ubuntu-container python3 --version
 >> ```
 >> * Showing python version in the container
