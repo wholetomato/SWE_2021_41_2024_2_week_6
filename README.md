@@ -37,7 +37,7 @@
 ## Week 5 Assignment
 
 >
->> <code> docker exec ubuntu-container cat etc/os-release </code>
+>> <pre><code> docker exec ubuntu-container cat etc/os-release </code></pre>
 >> * docker exec <my container> means commanding container to do something. In the upper command, I ordered "ubuntu-container" to print content in etc/os-release
 >> * output
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
