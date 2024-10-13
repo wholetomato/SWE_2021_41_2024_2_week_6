@@ -1,7 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 ---
 ## Week 4 Assignment
-* https://github.com/wholetomato/SWE_2021_41_2024_02_week_4
+* [Week 4 assignment](https://github.com/wholetomato/SWE_2021_41_2024_02_week_4)
 ```python
     def isHappy_result(n):
     result = 0
