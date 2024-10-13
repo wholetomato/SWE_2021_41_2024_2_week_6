@@ -37,7 +37,7 @@
 ## Week 5 Assignment
 
 >
->> docker exec ubuntu-container cat etc/os-release
+>> #### docker exec ubuntu-container cat etc/os-release
 >> * docker exec <my container> means commanding container to do something. In the upper command, I ordered "ubuntu-container" to print content in etc/os-release
 >> * output
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
@@ -56,21 +56,21 @@ LOGO=ubuntu-logo
 <br>
 
 >
->> docker exec ubuntu-container git --version
+>> #### docker exec ubuntu-container git --version
 >> * Showing git version in the container
 >> * output
 git version 2.43.0
 <br>
 
 >
->> docker exec ubuntu-container python3 --version
+>> #### docker exec ubuntu-container python3 --version
 >> * Showing python version in the container
 >> * output
 Python 3.12.3
 <br>
 
 >
->> docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
+>> #### docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
 >> * showing mounted directory with the container
 >> * output
 [ubuntu_host_dir:/mnt/ubuntu_container_dir]
