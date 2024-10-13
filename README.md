@@ -2,7 +2,7 @@
 ---
 ## Week 4 Assignment
 * https://github.com/wholetomato/SWE_2021_41_2024_02_week_4
-'''python
+```python
     def isHappy_result(n):
     result = 0
     while n > 0:
@@ -27,7 +27,7 @@
     
     num = 19
     print(isHappy(num))
-'''
+```
 
 
 
@@ -35,7 +35,9 @@
 ## Week 5 Assignment
 
 >
->> '''python docker exec ubuntu-container cat etc/os-release '''
+>> ```python
+>>  docker exec ubuntu-container cat etc/os-release
+>> ```
 >> * docker exec <my container> means commanding container to do something. In the upper command, I ordered "ubuntu-container" to print content in etc/os-release
 >> * output
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
@@ -54,21 +56,27 @@ LOGO=ubuntu-logo
 <br>
 
 >
->> #### docker exec ubuntu-container git --version
+>> ```python
+>> docker exec ubuntu-container git --version
+>> ```
 >> * Showing git version in the container
 >> * output
 git version 2.43.0
 <br>
 
 >
->> #### docker exec ubuntu-container python3 --version
+>> ```python
+>> docker exec ubuntu-container python3 --version
+>> ```
 >> * Showing python version in the container
 >> * output
 Python 3.12.3
 <br>
 
 >
->> #### docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
+>> ```python
+>> docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
+>> ```
 >> * showing mounted directory with the container
 >> * output
 [ubuntu_host_dir:/mnt/ubuntu_container_dir]
