@@ -25,11 +25,13 @@
           return False
         result_list = in_result(result_list, n)
       return True
+    
+    num = 19
+    print(isHappy(num))
   </code>
 </pre>
 
-num = 19
-print(isHappy(num))
+
 
 ---
 ## Week 5 Assignment
